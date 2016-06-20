@@ -3,6 +3,11 @@ body{
 
 }
 h1{
-  color:blue;
-  font-size:18;
+  color:black;
+  font-size:20;
+}
+
+.jumbotron{
+  color:#009999;
+  font-size: 18;
 }
