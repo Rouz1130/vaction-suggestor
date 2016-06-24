@@ -12,3 +12,7 @@ h1{
   font-size: 18;
   font-family: serif;
 }
+
+#events, #explore, #relaxation, #winter ,#mMouse{
+  display: none;
+}
