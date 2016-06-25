@@ -1,85 +1,82 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
+  <head>
 
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
-  <title>Vacation Destination suggestions</title>
-</head>
-<body>
-</div>
-  <div class="container" id=headline>
-    <div class="jumbotron">
-      <div class="page-header">
-        <div class="well well-lg"><h1>Vacation suggestions for you</h1>
-        <p><strong>Relax travel and unwind!. Pease take time to answer the following questions bleow for our reccomendaitons of what type of vacation best fits you.
-          Also have a chance to win a free all-inlcusive vacation buy simply just pressing the submit button after your done</strong>.<p></div>
-  </div>
+    <title>Vacation Destination suggestions</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="answer">
+        <div class="radio">
+          <h4>Do you plan on going for more than a week</h4>
+          <label>
+            <input type="radio" name="time" value="yes">
+            yes
+          </label>
+          <label>
+            <input type="radio" name="time" value="no">
+            no
+          </label>
 
-  <div id="intro" class="container">
-    <div id="blanks">
-      <!--form   -->
-      <form>
-        <div class="form-group form-group-sm">
-        <h3>Do you plan on going for more than a week</h3>
-        <select class="form-control" id="time">
-          <option><option>
-          <option>Yes</option>
-          <option>No</option>
-        </select>
-       </div>
-     </div>
+          <h4>do you plan to do some sight seeing</h4>
+          <label>
+            <input type="radio" name="explore" value="yes">
+            yes
+          </label>
+          <label>
+            <input type="radio" name="explore" value="no">
+            no
+          </label>
 
-        <div class="form-group form-group-sm">
-        <h3>Do you plan to do some sight seeing and exporation</h3>
-        <select class="form-control" id="sightC">
-          <option></option>
-          <option>Yes</option>
-          <option>No</option>
-        </select>
+          <h4>Is this vacation more for relaxation</h4>
+          <label>
+            <input type="radio" name="relax" value="yes">
+            yes
+          </label>
+          <label>
+            <input type="radio" name="relax" value="no">
+            no
+          </label>
+
+          <h4>Do you plan on attending any concerts or sporting events</h4>
+          <label>
+            <input type="radio" name="concert" value="yes">
+            yes
+          </label>
+          <label>
+            <input type="radio" name="concert" value="no">
+            no
+          </label>
+
+          <h4>Does the weather climate matter</h4>
+          <label>
+            <input type="radio" name="weather" value="yes">
+            yes
+          </label>
+          <label>
+            <input type="radio" name="weather" value="no">
+            no
+          </label>
+
         </div>
 
-        <div class="form-group form-group-sm">
-        <h3>Is this vacation more for relaxation</h3>
-        <select class="form-control" id="relaxing">
-          <option></option>
-          <option>Yes</option>
-          <option>No</option>
-        </select>
-        </div>
 
-        <div class="form-group form-group-sm">
-        <h3>Do you plan on attending any concerts or sporting events</h3>
-        <select class="form-control" id="concert">
-          <option></option>
-          <option>Yes</option>
-          <option>No</option>
-        </select>
-        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div id="output">
 
-        <div class="form-group form-group-sm">
-        <h3>Does the weather climate matter</h3>
-        <select class="form-control" id="weather">
-          <option></option>
-          <option>Yes</option>
-          <option>No</option>
-        </select>
-        </div>
+      </div>
 
-      <button type="submit" class="btn btn-info btn-lg">Submit</button>
-    </form>
-    <!--image links  -->
 
-    <IMG id="events" SRC="images./events.jpg" class="img-responsive" ALT="events" height="400"width="400">
-    <IMG id="explore" SRC="images./explore.jpg" class="img-responsive" ALT="explore"height="400"width="400">
-    <IMG id="relaxation" SRC="images./relaxation.jpg" class="img-responsive" ALT="relaxation"height="400"width="400">
-    <IMG id="winter" SRC="images./winter.jpg" class="img-responsive"  ALT="winter" height="400"width="400">
-    <IMG id="mMouse" SRC="images./mMouse.jpg" class="img-responsive"  ALT="msc" height="400"width="400">
-          </body>
-          </html>
+    </div>
+  </body>
+
+
+</html>

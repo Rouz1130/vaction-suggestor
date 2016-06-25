@@ -1,18 +1,3 @@
 body{
   background-color: #99994d;
-
-}
-h1{
-  color:black;
-  font-size:20;
-}
-
-.jumbotron{
-  color:#009999;
-  font-size: 18;
-  font-family: serif;
-}
-
-#events, #explore, #relaxation, #winter ,#mMouse{
-  display: none;
 }
